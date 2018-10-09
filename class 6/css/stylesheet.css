@@ -1,0 +1,52 @@
+
+/*header nav bar*/
+.bg-light {
+    background-color: #fed433 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #fffffF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+
+/*carousel*/
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2%;
+}
+
+/*button*/
+.btn {
+    background-color: #fed433;
+    color: #000000;
+    margin-bottom: 3%;
+}
+
+.btn-primary {
+    border-color: #fed433;
+    color: #000000;}
+
+.btn-primary:hover {
+    color: #000000;
+    border-color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #ffffff;}
+    
+}
+
+
+/*Column*/
+.col-6 { 
+    padding-left: 4%;
+
+}

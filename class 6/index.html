@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    
+    
+    <title>Page Title</title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  </head>
+
+<body>
+
+<button id="append">Append</button>
+<button id="appendTo">AppendTo</button>
+<button id="prepend">Prepend</button>
+<button id="prependTo">PrependTo</button>
+
+<hr>
+
+<button id="before">Add Before</button>
+<button id="after">Add After</button>
+
+<hr>
+
+<button id="remove">Remove</button>
+<button id="removeAll">Remove All</button>
+
+<div class="container">
+  <h1>Hello, World!</h1>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $("#append").on("click", function(){
+          $(".container").append('<p style="color:red;">Appending!</p>');
+      });
+
+       $("#appendTo").on("click", function(){
+          $('<p style="color:blue;">AppendingTo!</p>').appendTo(".container");
+      });
+
+      $("#prepend").on("click", function(){
+          $(".container").prepend('<p style="color:red;">Prepending!</p>');
+      });
+
+      $("#prependTo").on("click", function(){
+          $('<p style="color:orange;">PrependingTo!</p>').prependTo(".container");
+      });
+
+      $("#before").on("click", function(){
+          $(".container").before('<p style="color:aqua;">Adding Before!</p>')
+      });
+
+       $("#after").on("click", function(){
+          $(".container").after('<p style="color:purple;">Adding After!</p>')
+      });
+
+      $("#remove").on("click", function(){
+          $("p",".container").remove();
+      })
+
+       $("#removeAll").on("click", function(){
+          $("body").remove('p');
+      });
+
+    });  
+  
+  </script>
+
+</body>
+</html>

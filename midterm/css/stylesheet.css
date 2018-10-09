@@ -1,0 +1,233 @@
+/* This is if I want to put a margin around my entire page so it doesn't go to edge.
+
+body {
+    margin: 4%;
+
+}*/
+
+/* FONTS */
+
+@font-face {
+    font-family: 'gt_walsheim_proregular';
+    src: url('gt-walsheim-pro-regular-webfont.woff2') format('woff2'),
+         url('gt-walsheim-pro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_walsheim_probold';
+    src: url('gt-walsheim-pro-bold-webfont.woff2') format('woff2'),
+         url('gt-walsheim-pro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bold_text{
+    font-size: 36px;
+    font-family: "gt_walsheim_probold", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.med_text{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "gt_walsheim_probold", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reg_text {
+    font-size: 27px;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    padding-right: 20%;
+}
+
+.reg_text_sm {
+    color: #bdbdad;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom:25px;
+}
+
+
+/* HEADER AND NAVIGATION */
+
+.bg-light {
+    background-color: #3a2d37 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #ffeb36;
+}
+
+ul.navbar-nav a:hover { 
+    color: #ef2475 !important; 
+}
+
+a.navbar-brand:hover { 
+    color: #ffeb36 !important; 
+}
+
+.navbar-nav {
+    padding-left: 60%;
+}
+
+/* ROWS AND COLUMNS */
+
+
+.row_1_col_left {
+    height: 38vw;
+    background: #ffffff;
+    color: #3a2d37;
+    position: relative;
+    padding-top:40px;
+    float:left;
+}
+
+.row_1_col_right {
+    height: 38vw;
+    background: #ef2475;
+    color: #ffffff;
+    position: relative;
+    float:left;
+    padding-top:40px;
+
+}
+
+.col_contents {
+    padding-left: 10%;
+    position: relative;
+}
+
+.row_2_col_left_a {
+    height: 45vw;
+    background: #ffeb36;
+    position: relative;
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+.box_a {
+    height: 18vw;
+    width: 100%;
+    background: #3a2d37;
+    position: relative;
+    display:inline-block;
+    float:left;
+    padding-top: 20px;
+    padding-right: 70px;
+}
+
+.box_b {
+    height: 27vw;
+    width: 100%;
+    background: #ffeb36;
+    position: relative;
+    display:inline-block;
+}
+
+.row_2_col_right {
+    height: 45vw;
+    background: #ff5600;
+    position: relative;
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+/* CAROUSEL */
+
+#turrellcarousel {
+    height: 27vw;
+    max-width: 100%;
+    display:inline-block; 
+}
+
+.carousel-item{
+    height: 27vw;
+    max-width: 100%;
+    display: relative;
+}
+
+
+/* CAROUSEL BUTTONS*/
+.btn {
+    background-color:#ef2475;
+    font-size: 15px;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    border-radius: 25px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color:#3a2d37;
+    color: #ffffff;
+}
+
+/* MODAL BUTTON*/
+
+.btn-primary:hover {
+    color: #ffffff;
+    border-color:#3a2d37;
+    background-color: #3a2d37;
+}
+
+.btn-primary {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #3a2d37;}
+
+/* DOWNLOAD BUTTON */
+
+a.download_btn {
+    background-color:#ff5600;
+    font-size: 20px;
+    font-family: "gt_walsheim_probold", Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    border-radius: 25px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+}
+
+a.download_btn:hover {
+    background-color:#3a2d37;
+    color: #ffffff;
+}
+
+/* IMAGES */
+
+.image-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img .row1-col2-img {
+    vertical-align:bottom;
+}
+
+/* CONTAINERS */
+

@@ -1,0 +1,562 @@
+/* This is if I want to put a margin around my entire page so it doesn't go to edge.
+
+body {
+    margin: 4%;
+
+}*/
+
+/* FONTS */
+
+@font-face {
+    font-family: 'gt_walsheim_proregular';
+    src: url('gt-walsheim-pro-regular-webfont.woff2') format('woff2'),
+         url('gt-walsheim-pro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_walsheim_probold';
+    src: url('gt-walsheim-pro-bold-webfont.woff2') format('woff2'),
+         url('gt-walsheim-pro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bold_text{
+    font-size: 36px;
+    font-family: "gt_walsheim_probold", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.med_text{
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "gt_walsheim_probold", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.med_text_2{
+    font-size: 30px;
+    color: #282737;
+    font-family: "gt_walsheim_probold", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 7%;
+
+}
+
+.reg_text {
+    font-size: 27px;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    padding-right: 20%;
+}
+
+
+.reg_text_2 {
+    font-size: 20px;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    line-height: 25px;
+}
+
+.reg_text_sm {
+    color: #f4c6c3;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom:25px;
+}
+
+.reg_media_sub {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom:25px;
+}
+
+.reg_text_media {
+    color:#f4cbbe;
+    font-size: 27px;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    padding-right: 20%;
+}
+
+.thin_header {
+    color: #282737;
+    font-size: 27px;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 35px;
+    padding-right: 20%;
+}
+
+.reg_text_xs {
+    color: #f4c6c3;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom:0;
+}
+
+/* HEADER AND NAVIGATION */
+
+.bg-light {
+    background-color: #ed584e!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #282737;
+}
+
+ul.navbar-nav a:hover { 
+    color: #282737 !important; 
+}
+
+a.navbar-brand:hover { 
+    color: #282737 !important; 
+}
+
+/*this pushes nav items to right
+
+.navbar-nav {
+    padding-left: 60%;
+}
+*/
+
+.navbar-toggler {
+color: #282737;
+border-collapse: #282737; 
+}
+
+/* ROWS AND COLUMNS */
+
+
+.row_1_col_left {
+    background: #fffdfb;
+    color: #282737;
+    position: relative;
+    padding-top:40px;
+    padding-bottom: 40px;
+    float:left;
+}
+
+.row_1_col_right {
+    background: linear-gradient(#fbe2cc, #f4cbbe, #c8bfc2);
+    color: #ffffff;
+    position: relative;
+    float:left;
+    padding-top:40px;
+
+}
+
+.col_contents {
+    padding-left: 2%;
+    position: relative;
+}
+
+.download_contents {
+    padding-left: 2%;
+    position: relative;
+}
+
+.row_2_col_left_a {
+    background: #ffeb36;
+    position: relative;
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+.row_2_col_left_top {
+    width: 100%;
+    background: #282737;
+    position: relative;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    margin:0;
+}
+
+.row_2_col_left_bottom {
+    width: 100%;
+    background: linear-gradient(#fbddda, #faeed6, #f5fed4);
+    position: relative;
+    margin:0;
+}
+
+.row_2_col_right {
+    background: #d0d0d0;
+    position: relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+.about_row_1 {
+    background:  #282737;
+    padding:0;
+}
+
+.about_row_2_col_l {
+    background: linear-gradient(#fbddda, #faeed6, #f5fed4);
+
+}
+
+.about_row_3_col_r {
+    background:  #ed584e;
+    padding:0;
+}
+
+
+
+.row_2_col_right_bottom {
+
+    background: #fffdfb;
+}
+
+.about_row_1_col_left {
+    background: linear-gradient(#fbddda, #faeed6, #f5fed4);
+    padding-bottom: 10%;
+}
+
+
+
+.row-2-col-a {
+    background: #ed584e;
+}
+
+.row-2-col-b {
+    background: #eb837c;
+}
+
+.row-2-col-c {
+    background: #ebbbb8;
+}
+
+.contact-col-left {
+    background: linear-gradient(#fbddda, #faeed6, #f5fed4);
+}
+
+.contact-col-right {
+    background: #282737;
+}
+
+/* CAROUSEL */
+
+#turrellcarousel {
+    max-width: 100%;
+    display:inline-block; 
+}
+
+.carousel-item{
+    max-width: 100%;
+    display: relative;
+}
+
+
+/* CAROUSEL BUTTONS*/
+.btn {
+    background-color:#e6e5e5;
+    font-size: 15px;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    color:#282737;
+    border-radius: 25px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color:#fef1e2;
+    color: #282737;
+}
+
+/* MODAL BUTTON*/
+
+.btn-primary:hover {
+    color: #ffffff;
+    border-color:#282737;
+    background-color: #282737;
+}
+
+.btn-primary {
+    border-color: #f5fdd4;
+    background-color: #f5fdd4;
+    color: #282737;}
+
+/* DOWNLOAD BUTTON */
+
+a.download_btn {
+    background-color:#282737;
+    font-size: 20px;
+    font-family: "gt_walsheim_probold", Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    border-radius: 25px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+}
+
+a.download_btn:hover {
+    background-color:#f3d5d3;
+    color: #ffffff;
+}
+
+/* IMAGES */
+
+.image-fluid {
+    width: 100%;
+    height: auto;
+}
+
+img .row1-col2-img {
+    vertical-align:bottom;
+}
+
+.full-width-img {
+    padding:0;
+    margin:0;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width:40%;
+    margin-right:10%;
+}
+
+.img-container {
+    padding:15%;
+}
+
+
+/* TABLE */
+
+.table {
+width: 100%;
+margin-bottom: 1rem;
+margin-right:5%;
+background-color: transparent;
+
+}
+
+/* CONTAINERS */
+
+.contact-info-container {
+    padding: 4%;
+}
+
+.text-container-cntr {
+    margin: auto 0;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-color: #ed584e;
+
+}
+
+.jumbotron-fluid {
+    margin-bottom:0;
+    padding-top:5%;
+    padding-bottom:15%;
+}
+
+.jumbotron-margin {
+    padding-left:7%;
+    
+}
+
+/* FORM */
+form {
+box-sizing: border-box;
+color: #282737;
+font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 200;
+line-height: 20px;
+text-align: left;
+padding-bottom: 10%;
+}
+
+.form-group {
+    margin-bottom: 2%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1%;
+}
+
+.form-control {
+    display:inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 10px;
+    line-height: 13px;
+    color: #495057;
+    background-color: #fffdfb;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: none;
+	padding: 0;
+	margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    border: none;
+    padding-left:1%;
+    }
+    
+    .hp-cnt-container {
+        padding-left:10%;
+    }
+
+/*MEDIA QUERIES FOR MED-LG SCREENS */
+
+@media (min-width: 768px) { 
+
+    .jumbotron-margin {
+        padding-left:15%;
+        
+    }
+    
+    .img-circle {
+        border-radius: 50%;
+        width:30%;
+        margin-right:10%;
+    }
+
+    form {
+        box-sizing: border-box;
+        color: #282737;
+        font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+        line-height: 20px;
+        text-align: left;
+        padding-bottom: 10%;
+        }
+
+        .form-area
+{
+    background-color: none;
+	padding: 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border: none;
+    padding-left:6%;
+    }
+
+        .hp-cnt-container {
+            padding-left:10%;
+        }
+    
+        .jumbotron-fluid {
+            margin-bottom:0;
+            padding-top:5%;
+            padding-bottom:8%;
+        }
+
+        .download_contents {
+            padding-left: 4%;
+            padding-top:8%;
+            position: relative;
+        }
+
+        a.download_btn {
+            background-color:#282737;
+            font-size: 20px;
+            font-family: "gt_walsheim_probold", Arial, Helvetica, sans-serif;
+            color:#ffffff;
+            border-radius: 25px;
+            padding-bottom: 4px;
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-top:5%;
+            width: fit-content;
+        }
+
+        .about_row_1_col_left {
+            background: linear-gradient(#fbddda, #faeed6, #f5fed4);
+            padding-bottom: 7%;
+        }
+        
+        .img-container {
+            padding:30%;
+        }
+
+        .hp-cnt-container {
+            padding-left:10%;
+            padding-top:4%;
+        }
+
+        .btn {
+            background-color:#e6e5e5;
+            font-size: 15px;
+            font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+            color:#282737;
+            border-radius: 25px;
+            padding-bottom: 4px;
+            padding-top: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-top: 6%;
+            width: fit-content;
+        }
+
+        /* TABLE */
+    .table {
+
+        width: 50%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        margin-top: 13%;
+        margin-left: 22%;
+        }
+
+        .about_row_2_col_l {
+            background: linear-gradient(#fbddda, #faeed6, #f5fed4);
+        padding-left: 3%;
+        padding-right: 3%
+        }
+}
+

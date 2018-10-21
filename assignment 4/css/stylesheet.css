@@ -1,0 +1,70 @@
+
+/*header nav bar*/
+.bg-light {
+    background-color: #7F706F !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #fffffF;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+
+/*carousel*/
+
+.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+
+}
+
+/*button*/
+.btn {
+    background-color: #7F706F;
+    color: #ffffff;
+    margin-bottom: 3%;
+}
+
+.btn-primary {
+    border-color: #7F706F;
+    color: #ffffff;}
+
+.btn-primary:hover {
+    color: #000000;
+    border-color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #ffffff;}
+    
+}
+
+
+/*Column*/
+.col-6 { 
+    padding-left: 4%;
+
+}
+
+img {
+    width:80%;
+}
+
+.input-group-addon,
+input[type=email],
+input[type=submit],
+.modal-content{border-radius:0px}
+
+.bg-primary {
+    background-color: #7F706F !important;
+}
+
+.modal-header {
+    color: #FFffff;
+}

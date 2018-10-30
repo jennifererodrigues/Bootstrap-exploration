@@ -1,0 +1,93 @@
+/* This is if I want to put a margin around my entire page so it doesn't go to edge.
+
+body {
+    margin: 4%;
+
+}*/
+
+/* FONTS */
+
+@font-face {
+    font-family: 'gt_walsheim_proregular';
+    src: url('gt-walsheim-pro-regular-webfont.woff2') format('woff2'),
+         url('gt-walsheim-pro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt_walsheim_probold';
+    src: url('gt-walsheim-pro-bold-webfont.woff2') format('woff2'),
+         url('gt-walsheim-pro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1 {
+    font-size: 20px;
+    font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    line-height: 25px;
+}
+
+
+.page-container {
+    padding:10%;
+}
+
+.col-md-6 {
+    padding: 4%;
+}
+
+
+/* FORM */
+form {
+box-sizing: border-box;
+color: #282737;
+font-family: "gt_walsheim_proregular", Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 200;
+line-height: 20px;
+text-align: left;
+padding-bottom: 10%;
+}
+
+.form-group {
+    margin-bottom: 2%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 1%;
+}
+
+.form-control {
+    display:inline-block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 10px;
+    line-height: 13px;
+    color: #495057;
+    background-color: #fffdfb;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+
+.form-area
+{
+    background-color: none;
+	padding: 0;
+	margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    border: none;
+    padding-left:1%;
+    }
+    
+    .hp-cnt-container {
+        padding-left:10%;
+    }

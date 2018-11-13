@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+    <title>Animation</title>
+
+    <style>
+      .animatable {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: red;
+        animation: moveIt 10s ease-in-out;
+        animation-iteration-count: infinite;
+
+      }  
+
+
+      @keyframes moveIt{
+        0% {
+          width:0px;
+          height:0px;
+          top:0;
+          left:0;
+        }
+        
+        25% {
+          width:300px;
+          height:300px;
+          top:50%;
+          left:50%;
+          }
+        
+        
+
+        50% {
+          width:0px;
+          height:0px;
+          top:100%;
+          left:100%;
+          }
+
+      75% {
+          width:300px;
+          height:300px;
+          top:50%;
+          left:50%;
+          }  
+
+        100% {
+          width:0px;
+          height:0px;
+          top:0%;
+          left:0%;
+          }  
+
+      }
+
+      /* @keyframes moveIt{
+        from {
+          width:300px;
+          height:300px;
+          top:0;
+          left:0;
+          }
+
+        to {
+          width:0px;
+          height:0px;
+          top:100%;
+          left:100%;
+          }
+      } */
+
+
+    </style>
+
+  </head>
+
+  <body>
+  
+    <div class="animatable"></div>
+  
+  
+</body>
+</html>
+

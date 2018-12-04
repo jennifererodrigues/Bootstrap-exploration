@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    <title>SPROUT</title>
+  </head>
+  <body>
+    <div class="container">
+
+        <!-- Navigation Bar-->
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+          <a class="navbar-brand" href="index.html">SPROUT</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> 
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">plant care</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">contact</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                  <a class="nav-link waves-effect">
+                    <span class="badge red z-depth-1 mr-1"> 1 </span>
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="clearfix d-none d-sm-inline-block"> Cart </span>
+                  </a>
+                </li>
+              </ul>
+
+          </div>
+        </nav>
+    
+    
+          <!--
+        ####################################################
+        C A R O U S E L
+        ####################################################
+        -->
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="6000">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <a href="#">
+                         <picture>
+                          <source srcset="images/home-slide-1-dt.jpg" media="(min-width: 768px)">
+                          <source srcset="images/home-slide-1.jpg" media="(min-width: 300px)">
+                          <img srcset="#" alt="responsive image" class="d-block img-fluid">
+                        </picture>
+    
+                        <div class="carousel-caption">
+                            <div>
+                                <h2>Need to get in Touch?</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    <!--
+        ####################################################
+        MAIN CONTENT
+        ####################################################
+        -->
+    
+<div class="container-fluid">
+  <div class="row" style="padding-top:3%">
+    <div class="col-12 col-md-6">
+        <figure class="figure">
+            <img src="images/contact-img.png" class="figure-img img-fluid rounded" alt="plants">
+            <figcaption class="figure-caption"><h2>Location</h2><p>address</p><p>phone number</p><p>email</p></figcaption>
+        </figure>
+    </div><!--col-->
+
+    <div class="col-12 col-md-6">
+      
+      <form class="form-horizontal">
+        <fieldset>
+          <div class="form-group">
+              <label class="col-md-4 control-label">Full Name</label>
+              <div class="col-md-12 name">
+                <input name="fullName" placeholder="Full Name" class="form-control" value="" type="text">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="col-md-4 control-label">Email</label>
+            <div class="col-md-12 email">
+              <input name="email" placeholder="Email" class="form-control" value="" type="text" >
+            </div>
+        </div>
+
+          <div class="form-group">
+              <label class="col-md-4 control-label">Message</label>
+              <div class="col-md-12 city">
+             <input name="city" placeholder="City" class="form-control" value="" type="text">
+            </div>
+          </div>
+
+        </fieldset>
+        
+    </form>
+    <button type="submit" id="btn" class="btn">SUBMIT</button>
+
+    </div><!--col-->
+  </div> <!--row-->
+
+
+        
+  </div>
+</div>
+
+</div> <!--container fluid-->
+</div> <!--ful page padding-->
+</body>
+
+    <script>
+        $(document).ready(function(){
+            $('#exampleModal').modal({
+                show:false,
+                backdrop:false
+            });
+            console.log($('Document is now ready.'));
+        });
+
+
+
+$('#playButton').click(function () {
+    $('#turrellcarousel').carousel('cycle');
+});
+$('#pauseButton').click(function () {
+    $('#turrellcarousel').carousel('pause');
+});
+
+
+    
+
+</script>
+
+<script>
+$(document).ready(function() {
+  // executes when HTML-Document is loaded and DOM is ready
+
+
+  /*
+  ################
+  Add navbar background color when scrolled
+  */
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 56) {
+      $(".navbar").addClass("bg-dark");
+    } else {
+      $(".navbar").removeClass("bg-dark");
+    }
+  });
+  // If Mobile, add background color when toggler is clicked
+  $(".navbar-toggler").click(function() {
+    if (!$(".navbar-collapse").hasClass("show")) {
+      $(".navbar").addClass("bg-dark");
+    } else {
+      if ($(window).scrollTop() < 56) {
+        $(".navbar").removeClass("bg-dark");
+      } else {
+      }
+    }
+  });
+  // ############
+
+  // document ready
+});</script>
+
+<script>
+  $(document).ready(function(){
+    console.log("Ready");
+
+    // $('#btn').on("click", function() {
+    //       if ($('input[name="phoneNumber"').is(":empty"))
+    //       $(".phone").append('<p>Please complete field</p>');
+
+    //        if ($('input[name="email"').is(":empty"))
+    //       $(".email").append('<p>Please complete field</p>');
+
+    //        if ($('input[name="postcode"').is(":empty"))
+    //       $(".postal").append('<p>Please complete field</p>');
+
+    //       if ($('input[name="fullName"').is(":empty"))
+    //       $(".name").append('<p>Please complete field</p>');
+
+    //        if ($('input[name="addressLine1"').is(":empty"))
+    //       $(".address").append('<p>Please complete field</p>');
+
+    //        if ($('input[name="country"').is(":empty"))
+    //       $(".country").append('<p>Please complete field</p>');
+
+    //       if ($('input[name="state"').is(":empty"))
+    //       $(".state").append('<p>Please complete field</p>');
+
+    //        if ($('input[name="city"').is(":empty"))
+    //       $(".city").append('<p>Please complete field</p>');
+
+    //   })
+
+// <!-- this is caling an event thats fired - for this example the event is blur that fired, developers use "e" or "event" to represent a firing event. Passing the event into the function.-->
+      $('input').blur(function(e){ // <!-- Changed event targget from ($('input[name="city"') to just input
+        console.log(e);
+
+         if ($(e.currentTarget).val() === ''){
+          $(e.currentTarget).after('<p class="error-message">Please complete field</p>');     // Here I put after instead of append because I'm attaching the message to all of the fields. I got the currentTarget from console. Thats what they called the element thats currently targeted.  
+         }
+
+         else {
+            $(e.currentTarget).siblings('error-message').remove();
+
+         }
+      });
+
+
+    //  $('input[name="phoneNumber"').blur(function(){
+    //   $(".number").append('<p>Please complete field</p>');
+    //  });
+
+    //  $('input[name="city"').blur(function(){
+    //   $(".city").append('<p>Please complete field</p>');
+    //  });
+
+    //  $('input[name="addressLine1"').blur(function(){
+    //   $(".address").append('<p>Please complete field</p>');
+    //  });
+
+    //  $('input[name="email"').blur(function(){
+    //   $(".email").append('<p>Please complete field</p>');
+    //  });
+
+    //  $('input[name="fullName"').blur(function(){
+    //   $(".name").append('<p>Please complete field</p>');
+    //  });
+
+    //  $('input[name="postcode"').blur(function(){
+    //   $(".postal").append('<p>Please complete field</p>');
+    //  });
+
+    //  $('input[name="state"').blur(function(){
+    //   $(".state").append('<p>Please complete field</p>');
+    //  });
+
+    //  $('input[name="country"').blur(function(){
+    //   $(".country").append('<p>Please complete field</p>');
+    //  });
+
+
+  }); 
+  </script>
+
+
+</html>
+

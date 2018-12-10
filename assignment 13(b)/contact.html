@@ -195,25 +195,16 @@ $(document).ready(function() {
   $(document).ready(function(){
 
           $("input[type=submit]").attr("disabled", "disabled");
-
             $('.form-control').blur(function(){
                     var alertMessage = '<p>Please fill out field.</p>';
-                    console.log('blurred element')
-                   
-                    $(this).parent().find('.alert').remove();
-                    
-                    
                     if( $(this).val().length === 0 ) {
-                        console.log('not valid')
-                        
                         $(this).parent().append(alertMessage);
-                        
                     }
                     if( $('#name' && '#email' && '#message').val().length > 0){
                         $('#submitBtn').removeAttr('disabled');
                     };
-                });
-        })
+            });
+    })
     
   </script>
 
